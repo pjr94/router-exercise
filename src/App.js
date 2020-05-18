@@ -109,7 +109,7 @@ function Post(props) {
 function Posts() {
   return (
     <div>
-      <h2>Journel</h2>
+      <h2>Journal</h2>
       <Switch>
         <Route exact path='/posts' component={FullPosts} />
         <Route path='/posts/:number' component={Post} />
